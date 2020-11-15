@@ -1,0 +1,23 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "This is a repo to test my skills of Jest Library JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll #runs all tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesusfer2575/Jest-JavaScript.git"
+  },
+  "keywords": [
+    "test",
+    "unit-test"
+  ],
+  "author": "Ad Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesusfer2575/Jest-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Jesusfer2575/Jest-JavaScript#readme"
+}
