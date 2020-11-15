@@ -1,4 +1,6 @@
 module.exports = {
-  add: (n1, n2) => n1 + n2,
-  multiply: (n1, n2) => n1 * n2
+  add: (a, b) => a + b,
+  multiply: (a, b) => a * b,
+  substract: (a, b) => a - b,
+  divide: (a, b) => a / b,
 };
