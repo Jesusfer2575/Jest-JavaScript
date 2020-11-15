@@ -1,23 +1,30 @@
 {
-  "name": "jest",
+  "name": "unit-testing",
   "version": "1.0.0",
-  "description": "This is a repo to test my skills of Jest Library JavaScript",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "jest --watchAll #runs all tests"
+    "start": "nodemon index.js",
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jesusfer2575/Jest-JavaScript.git"
   },
-  "keywords": [
-    "test",
-    "unit-test"
-  ],
-  "author": "Ad Fernandez",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jesusfer2575/Jest-JavaScript/issues"
   },
-  "homepage": "https://github.com/Jesusfer2575/Jest-JavaScript#readme"
+  "homepage": "https://github.com/Jesusfer2575/Jest-JavaScript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  }
 }
